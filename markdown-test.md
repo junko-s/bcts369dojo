@@ -39,7 +39,7 @@ func (c *Comment) GetComment() (comment string) {
 
 ---
 
-~~取り消し線（GFM記法）~
+~~取り消し線（GFM記法）~~
 
 ---
 
