@@ -25,8 +25,9 @@ func main() {
     fmt.Printin("Helllo")
 }
 
-func (c *Comment) GetComment() string {
-    return "some comment"
+func (c *Comment) GetComment() (comment string) {
+    comment = "some comment"
+    return 
 }
 ```
 
@@ -35,6 +36,10 @@ func (c *Comment) GetComment() string {
 *you-should-be-gopher*
 
 \*you-should-be-gopher*
+
+---
+
+~~取り消し線（GFM記法）~~
 
 ---
 
@@ -52,6 +57,11 @@ https://github.com/
 ---
 
 **OKです**  :+1:
+
+---
+
+- [x] 完了済み項目
+- [ ] 未完了項目
 
 ---
 
@@ -75,7 +85,7 @@ https://github.com/
 画像のURL  
 https://gophercises.com/img/gophercises_jumping.gif
 
-<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GO_LEARN.png" title="タイトル" width=200px>
+<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GO_LEARN.png" title="タイトル" width=200px height=200px>
 
 画像のURL  
 https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GO_LEARN.png
